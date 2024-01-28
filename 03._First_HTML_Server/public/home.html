@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- solution 3: link -->
+    <link rel="stylesheet" href="./home.css">
+    <!-- solution 2: in-file -->
+    <!-- <style>
+        #title {
+            color: red;
+        }
+    </style> -->
+    <meta http-equiv="refresh" content="3;/secondPage" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML Server</title>
+</head>
+<body>
+
+    <!-- solution 1: inline styling  -->
+    <!-- <h1 style="color:red">Home</h1> -->
+ 
+    <h1 id="title">Home</h1>
+    
+    <h3>This is now deployed!</h3>
+
+    <h3 id="welcomeMessage"></h3>
+
+    <a href="/secondPage">Second Page</a>
+
+    <script src="./home.js"></script>
+    <script>
+        // setTimeout(() => window.location.href = "/secondPage", 3000);
+        // setTimeout(() => window.location.replace("/secondPage"), 3000);
+    </script>
+</body>
+</html>
